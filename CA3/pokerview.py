@@ -123,7 +123,7 @@ class PlayerView(QWidget):
         hbox.addWidget(player_info)
 
         self.setLayout(hbox)
-        self.setMinimumWidth(800)
+        self.setMinimumWidth(600)
         self.player.update_data.connect(self.update)
         self.update()
 
